@@ -1,4 +1,4 @@
-package io.migenjutsu.udemy.masterclass.course_tutorials.section_six.classes_partOne;
+package io.migenjutsu.udemy.masterclass.course_tutorials.section_six.classes;
 
 public class Car {
     private int doors;
@@ -18,5 +18,4 @@ public class Car {
 
 
     public String getModel() { return model; }
-
 }
