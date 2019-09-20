@@ -1,4 +1,4 @@
-package io.migenjutsu.udemy.masterclass.course_tutorials.section_six.classes_partOne;
+package io.migenjutsu.udemy.masterclass.course_tutorials.section_six.classes;
 
 public class App {
     public static void main(String[] args) {
