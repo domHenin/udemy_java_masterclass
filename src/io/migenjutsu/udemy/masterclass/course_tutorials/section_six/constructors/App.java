@@ -7,28 +7,41 @@ public class App {
     Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+//
+//        Account vegetasAccount = new Account(); //(0.00, "123", "Vegeta", "myemail@vegeta.com", "407.123.4567");
+//
+//
+//        vegetasAccount.withdrawFunds(100);
+//
+//        vegetasAccount.depositFunds(50);
+//        vegetasAccount.withdrawFunds(100);
+//
+//        vegetasAccount.depositFunds(51);
+//        vegetasAccount.withdrawFunds(100);
+//
+//        Account gokusAccount = new Account("Goku", "goku@email.com", "123456");
+//
+//        System.out.println(gokusAccount.getNumber()+" name "+gokusAccount.getCustomerName());
 
-        Account vegetasAccount = new Account(); //(0.00, "123", "Vegeta", "myemail@vegeta.com", "407.123.4567");
 
-
-        vegetasAccount.withdrawFunds(100);
-
-        vegetasAccount.depositFunds(50);
-        vegetasAccount.withdrawFunds(100);
-
-        vegetasAccount.depositFunds(51);
-        vegetasAccount.withdrawFunds(100);
-
-        Account gokusAccount = new Account("Goku", "goku@email.com", "123456");
-
-        System.out.println(gokusAccount.getNumber()+" name "+gokusAccount.getCustomerName());
 
     }
 }
 
+//TODO:
+// new challange:
+// create a new class VipCustomer
+// it should have 3 fields; name, credit limit, and email address
+// create 3 constructors
+// 1st constructor empty should call the constructor with 3 parameters with default values
+// 2nd constructor should pass on the 2 values it receives and add a default value for the 3rd
+// 3rd constructor should save all fields.
+// create getters only for this using code generation of intellij as setters wont be needed
+// test and confirm it works.
+
 
 //TODO:
-// challenge:
+// challenge: COMPLETE
 // create a new class for a bank account
 // create fields for the account number,
 // balance, customer name, email and phone number
