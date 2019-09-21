@@ -8,16 +8,20 @@ public class App {
 
     public static void main(String[] args) {
 
-        Bank bank = new Bank();
+        Account vegetasAccount = new Account(); //(0.00, "123", "Vegeta", "myemail@vegeta.com", "407.123.4567");
 
-        bank.setBalance(100);
-        System.out.println("Current Balance: $"+bank.getBalance());
 
-        System.out.println("Deposit New Balance: $"+bank.depositFunds(5));
+        vegetasAccount.withdrawFunds(100);
 
-//        bank.withdrawFunds(10);
-        System.out.println("Withdraw New Balance: $"+bank.withdrawFunds(10));
+        vegetasAccount.depositFunds(50);
+        vegetasAccount.withdrawFunds(100);
 
+        vegetasAccount.depositFunds(51);
+        vegetasAccount.withdrawFunds(100);
+
+        Account gokusAccount = new Account("Goku", "goku@email.com", "123456");
+
+        System.out.println(gokusAccount.getNumber()+" name "+gokusAccount.getCustomerName());
 
     }
 }
