@@ -1,5 +1,7 @@
 package io.migenjutsu.udemy.masterclass.course_tutorials.section_six.constructors;
 
+import io.migenjutsu.udemy.masterclass.course_tutorials.section_six.person.Person;
+
 import java.util.Scanner;
 
 public class App {
@@ -24,9 +26,41 @@ public class App {
 //        System.out.println(gokusAccount.getNumber()+" name "+gokusAccount.getCustomerName());
 
 
+////// git checkout -b rework_practice
+//        VipCustomer bulma = new VipCustomer();
+//        System.out.println(bulma.getName());
+//
+//        VipCustomer vegeta = new VipCustomer("Vegeta", 25000.00);
+//        System.out.println(vegeta.getName());
+//        System.out.println("Customer: "+vegeta.getName()+"'s Email Address: "+vegeta.getEmailAddress());
+//
+//        VipCustomer trunks = new VipCustomer("Trunks", 100.00, "trunks@email.com");
+//        System.out.println(trunks.getName());
+//        //test:
+//        System.out.println(trunks.getEmailAddress());
 
+//  PRACTICE:
+        VipCustomer customerAaa = new VipCustomer();
+        VipCustomer customerBbb = new VipCustomer("Vegeta", 100000);
+        VipCustomer customerCcc = new VipCustomer("Trunks", "trunks@email.com", 3000000);
+        System.out.println(customerAaa.toString());
+        System.out.println(customerBbb.toString());
+        System.out.println(customerCcc.toString());
+
+//        //Person__
+//        Person__ personFir = new Person__();
+//        Person__ personSec = new Person__("Sasuke", "Uchiha");
+//        Person__ personThir = new Person__("Obito", "Uchiha", "Madara");
+//
+//        System.out.println(personFir.toString());
+//        System.out.println(personSec.toString());
+//        System.out.println(personThir.toString());
+//
     }
 }
+
+//QUESTION: why am i retyping the name of `personSec` when its done in the constructor?
+//NOTE: i tried to place setter int the proper place in `this()`
 
 //TODO:
 // new challange:
