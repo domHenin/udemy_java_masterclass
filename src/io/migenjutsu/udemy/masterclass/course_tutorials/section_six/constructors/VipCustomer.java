@@ -6,30 +6,30 @@ public class VipCustomer {
     private double creditLimit;
 
     public VipCustomer() {
-        this("Bulma", "bulma@capsulecorp.com");
-        System.out.println("Empty Constructor call");
+        this("Bulma", "firs_contruct@email.com", 100000);
     }
 
-    public VipCustomer(String name, String emailAddress) {
-        this.name = name;
-        this.emailAddress = emailAddress;
-
-        System.out.println("second constructor call");
+    public VipCustomer(String name, double creditLimit) {
+        this("Vegeta", "default", 200000);
     }
 
     public VipCustomer(String name, String emailAddress, double creditLimit) {
-        this.name = name;
-        this.emailAddress = emailAddress;
-        this.creditLimit = creditLimit;
-
-        System.out.println("third constructor call.");
-
+        this.name=name;
+        this.emailAddress=emailAddress;
+        this.creditLimit=creditLimit;
     }
 
 //GETTERS:
     public String getName() { return name; }
     public String getEmailAddress() { return emailAddress; }
     public double getCreditLimit() { return creditLimit; }
+
+    public String toString() {
+        return "Customer's Name: "+getName()+" "+
+                "Customer's Credit Limit: "+getCreditLimit()+" "+
+                "Customer's Email Address: "+getEmailAddress();
+    }
+
 }
 
 
