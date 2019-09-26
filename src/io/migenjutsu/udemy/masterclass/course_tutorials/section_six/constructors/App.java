@@ -1,6 +1,5 @@
 package io.migenjutsu.udemy.masterclass.course_tutorials.section_six.constructors;
 
-import io.migenjutsu.udemy.masterclass.course_tutorials.section_six.person.Person;
 
 import java.util.Scanner;
 
