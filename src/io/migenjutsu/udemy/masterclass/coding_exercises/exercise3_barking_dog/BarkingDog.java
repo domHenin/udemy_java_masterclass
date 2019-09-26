@@ -1,4 +1,4 @@
-package io.migenjutsu.udemy.masterclass.coding_exercises.barking_dog;
+package io.migenjutsu.udemy.masterclass.coding_exercises.exercise3_barking_dog;
 
 public class BarkingDog {
     public static void main(String[] args) {

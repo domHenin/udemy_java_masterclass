@@ -1,4 +1,4 @@
-package io.migenjutsu.udemy.masterclass.coding_exercises.megabytes_converter;
+package io.migenjutsu.udemy.masterclass.coding_exercises.exercise2_megabytes_converter;
 
 public class MegaBytesConverter {
     public static void main(String[] args) {

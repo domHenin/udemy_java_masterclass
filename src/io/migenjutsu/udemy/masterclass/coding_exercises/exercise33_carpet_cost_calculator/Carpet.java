@@ -1,4 +1,4 @@
-package io.migenjutsu.udemy.masterclass.coding_exercises.exercise_33_carpet_cost_calculator;
+package io.migenjutsu.udemy.masterclass.coding_exercises.exercise33_carpet_cost_calculator;
 
 public class Carpet {
     private double cost;
