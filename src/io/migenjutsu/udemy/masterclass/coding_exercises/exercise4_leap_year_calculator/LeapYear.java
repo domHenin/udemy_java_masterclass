@@ -1,4 +1,4 @@
-package io.migenjutsu.udemy.masterclass.coding_exercises.leap_year_calculator;
+package io.migenjutsu.udemy.masterclass.coding_exercises.exercise4_leap_year_calculator;
 
 public class LeapYear {
     public static void main(String[] args) {

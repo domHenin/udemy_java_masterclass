@@ -1,4 +1,4 @@
-package io.migenjutsu.udemy.masterclass.coding_exercises.speed_converter_package;
+package io.migenjutsu.udemy.masterclass.coding_exercises.exercise1_speed_converter;
 
 public class SpeedConverter {
     public static void main(String[] args) {
