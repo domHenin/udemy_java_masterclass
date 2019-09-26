@@ -1,5 +1,6 @@
 package io.migenjutsu.udemy.masterclass.course_tutorials.section_six.constructors;
 
+
 import java.util.Scanner;
 
 public class App {
